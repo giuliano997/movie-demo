@@ -1,4 +1,4 @@
-
+import { MovieCard } from "./components/MovieCard";
 import './App.css'
 
 function App() {
@@ -7,6 +7,9 @@ function App() {
     <>
       <h1>Movie List</h1>
       <ul className="movie-list">
+        <MovieCard title="Godfather"/>
+        <MovieCard title="Titanic"/>
+        <MovieCard title="taxi Driver"/>
         <li> 
           <h2>Godfather</h2>
         </li>
